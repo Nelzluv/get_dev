@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>GET DEV LOCATION API</title>
+    <title>COURIER API</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
     <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
@@ -17,7 +17,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">LOCATION API</a>
+      <a class="navbar-brand" href="#">COURIER SERVICE API</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,9 +28,5 @@
             <a class="nav-link" href="index.php">Home </a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0" method="GET" action="API/get_location.php">
-          <input class="form-control mr-sm-2" type="text" name="g" id="location" placeholder="Enter Location">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
